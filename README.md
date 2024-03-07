@@ -1,35 +1,12 @@
-# vue-create-square-game
+# Demo Link
+[Demo](https://githi54.github.io/vue-create-square-game/)
+## Use Composition API only (setup function)
 
-This template should help get you started developing with Vue 3 in Vite.
+Feel free to design the app as you like, we appreciate aesthetically pleasing designs. Please utilize the Vuetify library to create widgets, forms, cards, etc.
 
-## Recommended IDE Setup
+Create a form in the center of the screen inside the <v-card> with input fields for email, password, and a login button. Upon clicking the login button, use the vuelidate library to validate the input fields. Ensure that the email input field contains a valid email address and the password field contains at least 6 characters. If an error occurs, display it below the corresponding input field. Otherwise, redirect the user to the /game page.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Create two input fields labeled 'Size X' and 'Size Y'. Users can input two values, for example 'Size X = 64' and 'Size Y = 64'. The app should then draw 64 small squares horizontally and 64 squares vertically. The size of each square should be 36x36 pixels, colored white, on the dark background.
 
-## Customize configuration
+When the user hovers his mouse over a square, it should change color to blue if it was originally white, or to white if it was originally blue. If the user changes the values of 'Size X' or 'Size Y', the squares should be redrawn accordingly.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
