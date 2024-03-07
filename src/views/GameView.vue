@@ -24,8 +24,8 @@ createGrid()
     <v-card class="size">
       <v-card-title>Size</v-card-title>
       <v-card-text>
-        <v-text-field v-model="sizeX" label="Size X" type="number"></v-text-field>
-        <v-text-field v-model="sizeY" label="Size Y" type="number"></v-text-field>
+        <v-text-field v-model="sizeX" label="Size X" type="number" min="0" max="64"></v-text-field>
+        <v-text-field v-model="sizeY" label="Size Y" type="number" min="0" max="64"></v-text-field>
       </v-card-text>
     </v-card>
     <div>
